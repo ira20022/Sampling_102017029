@@ -19,7 +19,15 @@ The choice of sampling method depends on the research question, the available da
 
 ### Analysis :
 The dataset used is highly imbalanced. The number 0's were 763 and number of 1's were 9. As we can see sampling is needed as trainig the model on the current Dataset will only give 0 for all input .
+
 So we have used Oversampling for the same .
+
+And to calculate the sample size , we have used the following formula :
+z = 1.96    95% confidence
+e = 0.05    margin of error 
+p = 0.05    5% frauds
+### n = (z^2 * p * (1-p) )/(e^2)
+        
 
 Sampling used are as follow:
 
